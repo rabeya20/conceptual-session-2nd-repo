@@ -31,3 +31,48 @@
 }
 /* banner related styles */
 
+
+
+.banner {
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(147deg, #4d4855 50%, #000000 100%);
+   
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+   
+   
+}
+.banner-title {
+    font-size: 50px;
+
+}
+
+.banner-description {
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+}
+.red {
+    color: rgb(119, 18, 18);
+}
+.btn {
+    padding: 10px 20px;
+    margin-right: 3px;
+    background-color:rgb(119, 18, 18);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+}
+.white {
+    background-color: white;
+    color: black ;
+    font-weight: bold;
+}
+
+
