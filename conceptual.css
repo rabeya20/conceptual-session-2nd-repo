@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header related styles */
+/* nav related styles */
+.nav {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+      background-color: rgb(99, 96, 96);
+      padding: 10px;
+
+    }
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+.blue {
+    color: rgb(27, 27, 77);
+}
+
+.nav-list {
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-style: italic;
+}
+/* banner related styles */
+
